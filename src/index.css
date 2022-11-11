@@ -1,0 +1,159 @@
+body {
+    margin-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(207, 172, 14);
+    color: white;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.title_logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title_logo img {
+    width: 50px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+
+.token_box {
+    width: 300px;
+    border: 2px solid rgb(5, 164, 175);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.token_box img {
+    width: 100%;
+}
+
+.token_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.details_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.details_box {
+    max-width: 512px;
+}
+
+.img_container {
+    align-self: flex-start;
+    margin-bottom: 25px;
+}
+
+.img_container img {
+    max-width: 512px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+
+.inactive {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+.owner-address {
+    color: red;
+}
+
+.btn-upload, .btn-decrypt {
+    color: #ff7300;
+    font-weight: 500;
+    font: initial;
+    background: radial-gradient( rgb(38, 225, 238), transparent);
+    border-radius: 20px;
+}
+
+.btn-withdraw {
+    color: #041d0e;
+    font-weight: 500;
+    font: initial;
+    background: radial-gradient( rgb(219, 48, 18), transparent);
+    border-radius: 20px; 
+}
+
+.btn-for-sell {
+    color: #302c2c;
+    font-weight: 500;
+    font: initial;
+    background: radial-gradient( rgb(223, 238, 7), transparent);
+    border-radius: 20px;  
+}
+.link {
+    color: #e3f1e9;
+    font-weight: 500;
+    font: initial;
+    background: radial-gradient( rgb(219, 48, 18), transparent);
+    border-radius: 20px; 
+}
+
+.btn-sell {
+        color: #e3f1e9;
+        font-weight: 500;
+        font: initial;
+        background: radial-gradient( rgb(219, 48, 18), transparent);
+        border-radius: 20px; 
+}
+
+.accordion-button {
+    color: #f10606;
+    font-weight: 500;
+    font: initial;
+      
+}
+button.accordion-button.collapse {
+    height: 60px !important;
+} 
+.btn-approve {
+    color: #f3e8e8;
+    font-weight: 500;
+    font: initial;
+    background: radial-gradient( rgb(245, 16, 0), transparent);
+    border-radius: 20px;  
+}
+.info {
+    color: #f3e8e8;
+    font-weight: 500;
+    font: initial;
+}
+.btn-bet {
+    color: #f10606;
+    font-weight: 500;
+    font: initial;
+    background: radial-gradient( rgb(18, 219, 18), transparent);
+    border-radius: 20px; 
+}
+
+.label-upload{
+    display: inline-block;
+    background: radial-gradient( rgb(38, 225, 238), transparent);
+    color: #ff7300;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
